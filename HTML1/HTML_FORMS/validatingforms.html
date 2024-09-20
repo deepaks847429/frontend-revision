@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>Parsley utilizes HTML attributes to define validation rules. We will use the following attributes in our form:
+
+    required: Indicates that the field is required.
+     
+    data-parsley-type: Specifies the expected data type (e.g., "email", "number").
+     
+    data-parsley-minlength: Defines the minimum length of the input.
+     
+    data-parsley-error-message: Custom error message for a specific rule.
+    
+     
+    Add these attributes in the input tag, and include data-parsley-validate in the form tag.</p>
+    <form action="" class="signpu" id="confirm" method="post" data-parsley-validate>
+      <input name="name"
+      id="name"
+      placeholder="enter full name"
+      required
+      data-parsley-required-message="nmae is required">
+    </form>
+</body>
+</html>
